@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import array_api_strict as xp
 import numpy as np
 from numpy.testing import assert_allclose
 from scipy.constants import mu_0 as MU0
