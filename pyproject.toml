@@ -39,6 +39,7 @@ dependencies = [
     "plotly>=5.16",
     "array-api-compat>=1.11.2",
     "array-api-extra>=0.7.1",
+    "typing-extensions>=4.13.2",
 ]
 
 [project.optional-dependencies]
@@ -58,8 +59,6 @@ docs = [
     "pandas",
     "numpy-stl",
     "pyvista",
-    "magpylib-material-response",
-    "magpylib-force",
 ]
 test = [
     "tox>=4.11",
@@ -74,6 +73,9 @@ test = [
     "jupyterlab",
     "anywidget",
     "array-api-strict>=2.3.1",
+    "jax",
+    "numpy",
+    "dask[array]",
 ]
 binder = [
     "jupytext",
